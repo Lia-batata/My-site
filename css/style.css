@@ -138,9 +138,23 @@ body.dark-mode .stars {
 /* CONTAINER */
 
 .container {
+
   z-index: 2;
+
   text-align: center;
+
   padding: 20px;
+
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
 }
 
 /* TITULO */
@@ -164,9 +178,18 @@ body.dark-mode .stars {
 /* LINKS */
 
 .links {
+
   display: flex;
   flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
   gap: 15px;
+
+  width: 100%;
+
 }
 
 /* BOTÕES */
@@ -175,6 +198,8 @@ body.dark-mode .stars {
   position: relative;
 
   width: 280px;
+
+  margin: 0 auto;
 
   padding: 15px 25px;
 
